@@ -1,0 +1,27 @@
+
+.general-info-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.general-button-container > button {
+    min-width: 100px;
+}
+
+.general-button-container {
+    display: flex;
+    gap: 20px;
+    align-self: end;
+}
+
+.general-info-container > input {
+    max-width: 350px;
+}
+
+.name-container,
+.email-container,
+.phone-container {
+    display: flex; 
+    justify-content: space-between;
+}

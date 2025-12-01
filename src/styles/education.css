@@ -1,0 +1,14 @@
+.education-container {
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.school-name-container,
+.major-container,
+.start-date-container,
+.end-date-container,
+.still-attending-container {
+    display: flex;
+    justify-content: space-between
+}
