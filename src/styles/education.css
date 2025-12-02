@@ -6,8 +6,8 @@
 
 .school-name-container,
 .major-container,
-.start-date-container,
-.end-date-container,
+.start-date-container.education,
+.end-date-container.education,
 .still-attending-container {
     display: flex;
     justify-content: space-between

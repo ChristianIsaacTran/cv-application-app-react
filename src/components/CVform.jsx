@@ -1,16 +1,22 @@
-import GeneralInfo from "./generalInfo.jsx"
-import Education from "./education.jsx"
-import "../styles/CVform.css"
-
+import GeneralInfo from "./generalInfo.jsx";
+import Education from "./education.jsx";
+import Experience from "./experience.jsx";
+import "../styles/CVform.css";
 
 function MainForm() {
-  return  (
 
-    <form className="main-form" action="">
+  return (
+    <main>
+      <h1>CV React App</h1>
+      <div className="form-sections">
         <GeneralInfo />
         <Education />
-        <button className="main-submit" onClick={(e)=>e.preventDefault()}>Submit</button>
-    </form>
+        <Experience />
+      </div>
+      <button className="main-submit" onClick={(e) => e.preventDefault()}>
+        Submit
+      </button>
+    </main>
   );
 }
 

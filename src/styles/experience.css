@@ -1,0 +1,14 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-name-container,
+.position-container,
+.main-responsibilities-container,
+.start-date-container.experience,
+.end-date-container.experience,
+.still-working-container {
+    display: flex;
+    justify-content: space-between;
+}

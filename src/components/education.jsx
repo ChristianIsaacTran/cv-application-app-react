@@ -15,12 +15,12 @@ function Education() {
         <input type="text" />
       </div>
 
-      <div className="start-date-container">
+      <div className="start-date-container education">
         <label htmlFor="">Start Date:</label>
         <input type="date" />
       </div>
 
-      <div className="end-date-container">
+      <div className="end-date-container education">
         <label htmlFor="">End Date:</label>
         <input type="date" />
       </div>

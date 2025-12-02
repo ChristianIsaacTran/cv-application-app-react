@@ -5,15 +5,8 @@
     
 }
 
-.general-button-container > button {
-    min-width: 100px;
-}
 
-.general-button-container {
-    display: flex;
-    gap: 20px;
-    align-self: end;
-}
+
 
 .general-info-container > input {
     max-width: 350px;

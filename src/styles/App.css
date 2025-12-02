@@ -1,3 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+ol,
+html,
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 fieldset {
-    gap: 10px;
+  gap: 10px;
+}
+
+.general-button-container,
+.education-button-container,
+.experience-button-container {
+  display: flex;
+  gap: 20px;
+  align-self: end;
+}
+
+.general-button-container > button,
+.education-button-container > button,
+.experience-button-container > button {
+  min-width: 100px;
 }
