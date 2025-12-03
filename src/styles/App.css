@@ -14,6 +14,16 @@ p {
   margin: 0;
 }
 
+
+body {
+    min-width: 800px;
+    margin: 80px;
+}
+
+main {
+    box-shadow: grey 0px 0px 11px 7px;
+}
+
 fieldset {
   gap: 10px;
 }

@@ -4,10 +4,9 @@ import Experience from "./experience.jsx";
 import "../styles/CVform.css";
 
 function MainForm() {
-
   return (
     <main>
-      <h1>CV React App</h1>
+      <h1 className="app-title">CV React App</h1>
       <div className="form-sections">
         <GeneralInfo />
         <Education />
