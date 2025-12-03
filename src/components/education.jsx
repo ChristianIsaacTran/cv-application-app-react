@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../styles/education.css";
 
 function Education() {
-  // education fields info
+  // education fields info useState
   const [info, setInfo] = useState({
     schoolName: "",
     major: "",
@@ -12,7 +12,7 @@ function Education() {
     editing: true,
   });
 
-  //   input field data
+  //   input field data useState
   const [userInput, setUserInput] = useState({
     schoolNameInput: "",
     majorInput: "",
@@ -20,7 +20,7 @@ function Education() {
     endDateInput: "",
   });
 
-  //   checkbox data
+  //   checkbox data useState
   const [stillAttending, setStillAttending] = useState(false);
 
   //   upon form submission, re-render the component in submission mode by toggling the info.editing boolean

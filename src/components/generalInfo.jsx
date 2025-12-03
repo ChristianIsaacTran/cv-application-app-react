@@ -77,7 +77,7 @@ function GeneralInfo() {
         </div>
         <div className="phone-container">
           <label htmlFor="phone-number">Phone Number:</label>
-          <input type="text" id="phone-number" name="infoPhone" value={userInput.phoneInput}  onChange={inputChangeHandler}/>
+          <input type="tel" id="phone-number" name="infoPhone" value={userInput.phoneInput}  onChange={inputChangeHandler}/>
         </div>
         <div className="general-button-container">
           <button className="general-submit">Submit</button>
